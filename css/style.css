@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto+Slab:wght@300;400;700&display=swap');
+
+h2, h3, p{
+	color: rgb(0, 0, 0);
+	font-weight: 300;
+	font-style: normal;
+
+}
+
+h2, h3{
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+h2{
+text-align: center;
+margin-bottom: 20px ;
+font-size:  2em;
+
+}
+
+h3{
+	margin-bottom: 10px ;
+	font-size: 1.5em;
+	
+}
+	
+p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 1em;
+	line-height: 150%;
+
+}
+
+/*========== mission Section Style ========== */
+#mission{
+	padding: 40px 0;
+	border-top: 20px solid rgba(238, 200, 86, 0.5);
+	background-color: rgba(238, 240, 138, 1.0);
+	background-image: -webkit-linear-gradient(270deg,rgba(238, 240, 138, 1.0) 0%, rgba(129, 154, 45, 1.0) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(238, 240, 138, 1.0) 0%, rgba(129, 154, 45, 1.0) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(238, 240, 138, 1.0) 0%, rgba(129, 154, 45, 1.0) 100%);
+	background-image: linear-gradient(180deg,rgba(238, 240, 138, 1.0) 0%, rgba(129, 154, 45, 1.0) 100%);
+}
+
+
+/*========== Services Section Style ========== */
+ 
+ #services{
+	padding: 30px 0;
+}
+
+#services img {
+	max-width: 80px;
+	margin-bottom: 15px;
+}
+article{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+/*========== Services Section Style ========== */
+#staff{
+	padding: 30px 0;
+	background-color: rgb(228, 209, 155);
+    background-image: -webkit-linear-gradient(270deg,rgb(228, 209, 155,) 0%, rgb(205, 174, 80) 100%);
+    background-image: -moz-linear-gradient(270deg,rgb(228, 209, 155,) 0%, rgb(205, 174, 80) 100%);
+    background-image: -o-linear-gradient(270deg,rgb(228, 209, 155,) 0%, rgb(205, 174, 80) 100%);
+    background-image: linear-gradient(180deg,rgb(228, 209, 155,) 0%, rgb(205, 174, 80) 100%);
+
+
+}
+#staff img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+.doctor{
+	margin-bottom: 20PX;
+}
+#staff h3{
+	font-weight: 700;
+	color: rgb(95, 59, 33);
+}
+
+/*========== Services Section Style ========== */
+#janeh, #mcphersons, #johnb, #lorraines{
+
+	background-size: cover;
+	background-position-x: center;
+}
+#janeh{
+	background-image: url(../images/testimonial-janeh.jpg);
+}
+#mcphersons{
+	background-image: url(../images/testimonial-mcphersons.jpg);
+}
+#johnb{
+	background-image: url(../images/testimonial-johnb.jpg);
+}
+#lorraines{
+	background-image: url(../images/testimonial-lorraines.jpg);
+}
+blockquote{
+position: relative;
+min-height: 400px;
+margin-bottom: 0;
+}
+.quote{
+max-width: 80%;
+position: absolute;
+bottom: 0px;
+left: 0px;
+padding: 15px 4%;
+border-top-right-radius: 25px;
+background-color: rgba(255, 255, 255, 0.50);
+} 
+.intro{
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.1em;
+	clear: rgb(0, 0, 0);
+	font-weight: 300;
+	font-style: normal;
+	line-height: 130%;
+	display: block;
+
+}
+.more{
+    font-family: 'open Sans', serif;
+	font-size: 0;
+	clear: rgb(0, 0, 0);
+	font-weight: 300;
+	font-style: normal;
+	line-height: 130%;
+	display: block;
+}
+#testimonials h2, .customer{
+	display: none;
+}
+
+.quote:hover{
+	background-color: rgba(252, 253, 170, 0.60);
+}
+.quote:hover .more{
+	font-size: 1em;
+}
+.intro:after{
+	content: "...";
+}
+.quote:hover .intro::after{
+	content: "";
+}
+
+/*========== FooTER Style ========== */
+footer{
+	padding: 20px 0;
+	background-color: rgb(44, 126, 150);
+}
+footer p{
+	margin-bottom: 0;
+}
+footer, footer p{
+	font-size: 1.2rem;
+	color: rgb(255, 255, 255);
+}
+.phone{
+	font-size: 1.7rem;
+	color: rgb(255, 247, 139);
+	padding-left: 10px;
+}
+footer p a{
+	color: rgb(255, 247, 139);
+	text-decoration: none;
+}
+footer p a:hover{
+	color: rgb(242, 192, 92);
+}
+
+
+body{
+	padding: relative;
+}
+
+/*========== Navbar Style ========== */
+.navbar-light .navbar-nav .nav-item .nav-link{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.1em;
+	color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+	color: rgb(255, 247, 139);
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:active{
+	color: rgb(255, 168, 139);
+border-bottom: 2px solid rgb(95, 0, 0);
+background-color: rgb(162, 255, 139, 0.30);
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link.active:hover{
+	color: rgb(95, 0, 0);
+}
+
+/*========== Navbar Style ========== */
+.navbar-light .navbar-brand{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.8rem;
+	color: rgb(255, 255, 255);
+	background-image: url(../images/wisdompetlogo.svg);
+	background-repeat: no-repeat;
+	padding-left: 105px;
+}
+
+.navbar-light .navbar-brand:hover{
+	color: rgb(255, 255, 255);
+}
+
+.subhead{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+    font-style: normal;
+    font-size: 1.1rem;
+    display: block;
+}
